@@ -25,6 +25,7 @@
 		C9934F9F1E2AD0C700948961 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F8B1E2AD0C700948961 /* UIImage+Resize.m */; };
 		C9934FA01E2AD0C700948961 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F8D1E2AD0C700948961 /* VideoViewController.m */; };
 		C9934FA11E2AD0C700948961 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F8F1E2AD0C700948961 /* ViewUtils.m */; };
+		C9934FA31E2AD5EA00948961 /* Messaging-Sent-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934FA21E2AD5EA00948961 /* Messaging-Sent-icon.png */; };
 		C9F0B6FE1E2A913E009AB109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B6FD1E2A913E009AB109 /* main.m */; };
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
@@ -64,6 +65,7 @@
 		C9934F8D1E2AD0C700948961 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 		C9934F8E1E2AD0C700948961 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
 		C9934F8F1E2AD0C700948961 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
+		C9934FA21E2AD5EA00948961 /* Messaging-Sent-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Messaging-Sent-icon.png"; sourceTree = SOURCE_ROOT; };
 		C9F0B6F91E2A913E009AB109 /* ecopolyhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecopolyhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F0B6FD1E2A913E009AB109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		C9934F751E2AD0C700948961 /* LLSimpleCameraExample */ = {
 			isa = PBXGroup;
 			children = (
+				C9934FA21E2AD5EA00948961 /* Messaging-Sent-icon.png */,
 				C9934F7A1E2AD0C700948961 /* camera-flash.png */,
 				C9934F7B1E2AD0C700948961 /* camera-flash@2x.png */,
 				C9934F7C1E2AD0C700948961 /* camera-switch.png */,
@@ -249,6 +252,7 @@
 				C9F0B7091E2A913E009AB109 /* Assets.xcassets in Resources */,
 				3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */,
 				C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */,
+				C9934FA31E2AD5EA00948961 /* Messaging-Sent-icon.png in Resources */,
 				C9934F971E2AD0C700948961 /* cancel@2x.png in Resources */,
 				C9934F961E2AD0C700948961 /* cancel.png in Resources */,
 				C9934F931E2AD0C700948961 /* camera-flash@2x.png in Resources */,
