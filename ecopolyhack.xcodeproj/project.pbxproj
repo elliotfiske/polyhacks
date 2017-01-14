@@ -10,6 +10,10 @@
 		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
 		3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Feed.storyboard */; };
 		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
+		3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */; };
+		3ED914761E2AB67A001E722D /* OnboardPageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */; };
+		3ED914781E2ACAB4001E722D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ED914771E2ACAB4001E722D /* Assets.xcassets */; };
+		3ED9147A1E2AD1F5001E722D /* Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914791E2AD1F5001E722D /* Util.m */; };
 		C91DD1131E2AB5180070EB0F /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91DD1121E2AB5180070EB0F /* Camera.storyboard */; };
 		C91DD11B1E2AC23A0070EB0F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91DD11A1E2AC23A0070EB0F /* AVFoundation.framework */; };
 		C9934F921E2AD0C700948961 /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7A1E2AD0C700948961 /* camera-flash.png */; };
@@ -30,7 +34,6 @@
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
 		C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F0B7051E2A913E009AB109 /* Main.storyboard */; };
-		C9F0B7091E2A913E009AB109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F0B7081E2A913E009AB109 /* Assets.xcassets */; };
 		C9F0B70C1E2A913E009AB109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F0B70A1E2A913E009AB109 /* LaunchScreen.storyboard */; };
 		F0158DAF7D99B43C542360F8 /* libPods-ecopolyhack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */; };
 /* End PBXBuildFile section */
@@ -42,6 +45,13 @@
 		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
 		3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		3ED914711E2AB573001E722D /* ChallengeCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeCellTableViewCell.h; sourceTree = "<group>"; };
+		3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeCellTableViewCell.m; sourceTree = "<group>"; };
+		3ED914741E2AB67A001E722D /* OnboardPageControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardPageControllerViewController.h; sourceTree = "<group>"; };
+		3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardPageControllerViewController.m; sourceTree = "<group>"; };
+		3ED914771E2ACAB4001E722D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3ED914791E2AD1F5001E722D /* Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Util.m; sourceTree = "<group>"; };
+		3ED9147B1E2AD204001E722D /* Util.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Util.h; sourceTree = "<group>"; };
 		91A7781D8E47F0EC979BBBB9 /* Pods-ecopolyhack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecopolyhack.release.xcconfig"; path = "Pods/Target Support Files/Pods-ecopolyhack/Pods-ecopolyhack.release.xcconfig"; sourceTree = "<group>"; };
 		93810D0029147F91231E047F /* Pods-ecopolyhack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecopolyhack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ecopolyhack/Pods-ecopolyhack.debug.xcconfig"; sourceTree = "<group>"; };
 		C91DD1121E2AB5180070EB0F /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
@@ -73,7 +83,6 @@
 		C9F0B7021E2A913E009AB109 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		C9F0B7031E2A913E009AB109 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		C9F0B7061E2A913E009AB109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C9F0B7081E2A913E009AB109 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9F0B70B1E2A913E009AB109 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9F0B70D1E2A913E009AB109 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -159,21 +168,27 @@
 		C9F0B6FB1E2A913E009AB109 /* ecopolyhack */ = {
 			isa = PBXGroup;
 			children = (
+				3ED914771E2ACAB4001E722D /* Assets.xcassets */,
 				C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */,
 				C9F0B7001E2A913E009AB109 /* AppDelegate.m */,
 				C9F0B7021E2A913E009AB109 /* ViewController.h */,
 				C9F0B7031E2A913E009AB109 /* ViewController.m */,
 				C9F0B7051E2A913E009AB109 /* Main.storyboard */,
+				3ED914741E2AB67A001E722D /* OnboardPageControllerViewController.h */,
+				3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */,
 				C91DD1121E2AB5180070EB0F /* Camera.storyboard */,
 				3ED9146B1E2AAE9D001E722D /* Feed.storyboard */,
 				3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */,
 				3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */,
+				3ED914711E2AB573001E722D /* ChallengeCellTableViewCell.h */,
+				3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */,
 				3ED914661E2AA538001E722D /* OnboardingViewController.h */,
 				3ED914671E2AA538001E722D /* OnboardingViewController.m */,
-				C9F0B7081E2A913E009AB109 /* Assets.xcassets */,
 				C9F0B70A1E2A913E009AB109 /* LaunchScreen.storyboard */,
 				C9F0B70D1E2A913E009AB109 /* Info.plist */,
 				C9F0B6FC1E2A913E009AB109 /* Supporting Files */,
+				3ED914791E2AD1F5001E722D /* Util.m */,
+				3ED9147B1E2AD204001E722D /* Util.h */,
 			);
 			path = ecopolyhack;
 			sourceTree = "<group>";
@@ -249,8 +264,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F0B70C1E2A913E009AB109 /* LaunchScreen.storyboard in Resources */,
-				C9F0B7091E2A913E009AB109 /* Assets.xcassets in Resources */,
 				3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */,
+				3ED914781E2ACAB4001E722D /* Assets.xcassets in Resources */,
 				C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */,
 				C9934FA31E2AD5EA00948961 /* Messaging-Sent-icon.png in Resources */,
 				C9934F971E2AD0C700948961 /* cancel@2x.png in Resources */,
@@ -320,12 +335,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
+				3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */,
+				3ED914761E2AB67A001E722D /* OnboardPageControllerViewController.m in Sources */,
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9934F9E1E2AD0C700948961 /* UIImage+Crop.m in Sources */,
 				C9934F9F1E2AD0C700948961 /* UIImage+Resize.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
 				3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */,
+				3ED9147A1E2AD1F5001E722D /* Util.m in Sources */,
 				C9934F9B1E2AD0C700948961 /* ImageViewController.m in Sources */,
 				C9934FA11E2AD0C700948961 /* ViewUtils.m in Sources */,
 				C9934FA01E2AD0C700948961 /* VideoViewController.m in Sources */,

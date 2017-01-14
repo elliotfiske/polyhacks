@@ -57,10 +57,10 @@
 }
 
 - (void) showOnboarding {
-  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-  UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"onboard"];
+  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Feed" bundle:nil];
+  UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"tabMaster"];
 
-  [vc setModalTransitionStyle:UIModalTransitionStyleFlipHorizontal];
+  [vc setModalTransitionStyle:UIModalPresentationPopover];
   [self presentViewController:vc animated:YES completion:nil];
 }
 

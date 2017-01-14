@@ -7,6 +7,8 @@
 //
 
 #import "FeedTableViewController.h"
+#import "ChallengeCellTableViewCell.h"
+#import "Util.h"
 
 @interface FeedTableViewController ()
 
@@ -22,6 +24,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.title = @"CHALLENGES";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -32,24 +35,39 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+    return 2;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+    return 3;
 }
 
-/*
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+  if (section == 0) {
+    return nil;
+  }
+  else {
+    return @"Previous Winners";
+  }
+}
+
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
+     ChallengeCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"challengeCell" forIndexPath:indexPath];
+
+  cell.challengeText.text = @"Recycle a water bottle!";
+//  cell.challengeImage.image = [UIImage imageNamed:@"sampleChl"];
+
     
     return cell;
 }
-*/
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Feed" bundle:nil];
+  UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"funGuy"];
+
+  [self.navigationController presentViewController:vc animated:YES completion:nil];
+}
+
 
 /*
 // Override to support conditional editing of the table view.
@@ -68,20 +86,6 @@
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
-}
-*/
-
-/*
-// Override to support rearranging the table view.
-- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
-}
-*/
-
-/*
-// Override to support conditional rearranging of the table view.
-- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
-    // Return NO if you do not want the item to be re-orderable.
-    return YES;
 }
 */
 
