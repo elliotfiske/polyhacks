@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1212" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C68" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -23,15 +23,16 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="VNN-GC-089">
-                                <rect key="frame" x="175" y="565" width="20" height="20"/>
+                                <rect key="frame" x="167" y="571" width="20" height="20"/>
                             </activityIndicatorView>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsR-IF-QxE">
-                                <rect key="frame" x="46" y="545" width="279" height="60"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tsR-IF-QxE">
+                                <rect key="frame" x="46" y="557" width="262" height="48"/>
                                 <color key="backgroundColor" red="0.0" green="0.50196081400000003" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="Q8g-zH-lx4"/>
+                                    <constraint firstAttribute="height" constant="48" id="Q8g-zH-lx4"/>
+                                    <constraint firstAttribute="width" constant="262" id="SKK-y4-gIB"/>
                                 </constraints>
-                                <state key="normal" title="Login to Facebook">
+                                <state key="normal" title="Login to Facebook" image="fblogin">
                                     <color key="titleColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
                                 <connections>
@@ -44,7 +45,6 @@
                         <constraints>
                             <constraint firstItem="VNN-GC-089" firstAttribute="centerY" secondItem="tsR-IF-QxE" secondAttribute="centerY" id="ARA-bz-R9k"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tsR-IF-QxE" secondAttribute="bottom" constant="62" id="CTn-k9-zkD"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="tsR-IF-QxE" secondAttribute="trailing" constant="34" id="OBe-D9-rgS"/>
                             <constraint firstItem="tsR-IF-QxE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Qed-Q6-ShT"/>
                             <constraint firstItem="VNN-GC-089" firstAttribute="centerX" secondItem="tsR-IF-QxE" secondAttribute="centerX" id="Yjf-3g-u7D"/>
                         </constraints>
@@ -57,5 +57,70 @@
             </objects>
             <point key="canvasLocation" x="136.80000000000001" y="138.98050974512745"/>
         </scene>
+        <!--Onboarding View Controller-->
+        <scene sceneID="v4j-Nu-hPn">
+            <objects>
+                <pageViewController storyboardIdentifier="onboard" autoresizesArchivedViewToFullSize="NO" transitionStyle="scroll" navigationOrientation="horizontal" spineLocation="none" id="FEd-Zo-ord" customClass="OnboardingViewController" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2kk-ta-msj" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137" y="-622"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Xbb-dc-y2E">
+            <objects>
+                <viewController storyboardIdentifier="onboard1" id="TDX-jo-QDl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="HF5-7m-mLS"/>
+                        <viewControllerLayoutGuide type="bottom" id="bQ7-cV-RUh"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ecb-N1-Ice">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.2672299139" green="0.71536808529999996" blue="0.80279356059999996" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EcA-Zv-9jK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1518" y="-851"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="pvY-3L-WQf">
+            <objects>
+                <viewController storyboardIdentifier="onboard2" id="xbQ-F3-y8z" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Tz4-fr-DTC"/>
+                        <viewControllerLayoutGuide type="bottom" id="c9k-B6-fJd"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="sth-Up-T6q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" name="keyboardFocusIndicatorColor" catalog="System" colorSpace="catalog"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hOx-3g-B4T" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2350" y="-851"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="ICi-4o-KQZ">
+            <objects>
+                <viewController storyboardIdentifier="onboard3" id="7V5-a0-d2N" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ccn-0x-755"/>
+                        <viewControllerLayoutGuide type="bottom" id="dSH-6K-9J9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="mTW-5I-sSD">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.40000000600000002" green="0.40000000600000002" blue="0.40000000600000002" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Q7n-WW-W97" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3254" y="-866"/>
+        </scene>
     </scenes>
+    <resources>
+        <image name="fblogin" width="525" height="96"/>
+    </resources>
 </document>

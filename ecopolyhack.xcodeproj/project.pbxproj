@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
+		3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Feed.storyboard */; };
+		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
 		C9F0B6FE1E2A913E009AB109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B6FD1E2A913E009AB109 /* main.m */; };
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
@@ -16,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3ED914661E2AA538001E722D /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
+		3ED914671E2AA538001E722D /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
+		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
+		3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 		C9F0B6F91E2A913E009AB109 /* ecopolyhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecopolyhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F0B6FD1E2A913E009AB109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -63,6 +71,11 @@
 				C9F0B7021E2A913E009AB109 /* ViewController.h */,
 				C9F0B7031E2A913E009AB109 /* ViewController.m */,
 				C9F0B7051E2A913E009AB109 /* Main.storyboard */,
+				3ED9146B1E2AAE9D001E722D /* Feed.storyboard */,
+				3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */,
+				3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */,
+				3ED914661E2AA538001E722D /* OnboardingViewController.h */,
+				3ED914671E2AA538001E722D /* OnboardingViewController.m */,
 				C9F0B7081E2A913E009AB109 /* Assets.xcassets */,
 				C9F0B70A1E2A913E009AB109 /* LaunchScreen.storyboard */,
 				C9F0B70D1E2A913E009AB109 /* Info.plist */,
@@ -110,7 +123,7 @@
 				TargetAttributes = {
 					C9F0B6F81E2A913D009AB109 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = GQZFDKJ72B;
+						DevelopmentTeam = 89WBEWPWMU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +153,7 @@
 			files = (
 				C9F0B70C1E2A913E009AB109 /* LaunchScreen.storyboard in Resources */,
 				C9F0B7091E2A913E009AB109 /* Assets.xcassets in Resources */,
+				3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */,
 				C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,15 +165,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
+				3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		3ED9146B1E2AAE9D001E722D /* Feed.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ED9146C1E2AAE9D001E722D /* Base */,
+			);
+			name = Feed.storyboard;
+			sourceTree = "<group>";
+		};
 		C9F0B7051E2A913E009AB109 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -271,7 +295,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GQZFDKJ72B;
+				DEVELOPMENT_TEAM = 89WBEWPWMU;
 				INFOPLIST_FILE = ecopolyhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliotfiske.ecopolyhack;
@@ -283,7 +307,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GQZFDKJ72B;
+				DEVELOPMENT_TEAM = 89WBEWPWMU;
 				INFOPLIST_FILE = ecopolyhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliotfiske.ecopolyhack;
@@ -310,6 +334,7 @@
 				C9F0B7121E2A913E009AB109 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
