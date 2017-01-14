@@ -8,6 +8,7 @@
 
 #import "FeedTableViewController.h"
 #import "ChallengeCellTableViewCell.h"
+#import "Util.h"
 
 @interface FeedTableViewController ()
 
@@ -23,7 +24,7 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-
+    self.navigationItem.title = @"CHALLENGES";
 }
 
 - (void)didReceiveMemoryWarning {
@@ -43,7 +44,7 @@
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
   if (section == 0) {
-    return @"Today's Challenge";
+    return nil;
   }
   else {
     return @"Previous Winners";
@@ -53,11 +54,18 @@
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
      ChallengeCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"challengeCell" forIndexPath:indexPath];
 
-  cell.challengeText.text = @"HAHAHA cool";
-  cell.challengeImage.image = [UIImage imageNamed:@"sampleChl"];
+  cell.challengeText.text = @"Recycle a water bottle!";
+//  cell.challengeImage.image = [UIImage imageNamed:@"sampleChl"];
 
     
     return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
+  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Feed" bundle:nil];
+  UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"funGuy"];
+
+  [self.navigationController presentViewController:vc animated:YES completion:nil];
 }
 
 
@@ -80,10 +88,6 @@
     }   
 }
 */
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-
-}
 
 /*
 #pragma mark - Navigation
