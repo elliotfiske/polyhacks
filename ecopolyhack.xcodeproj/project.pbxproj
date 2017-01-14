@@ -10,20 +10,60 @@
 		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
 		3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Feed.storyboard */; };
 		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
+		C91DD1131E2AB5180070EB0F /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C91DD1121E2AB5180070EB0F /* Camera.storyboard */; };
+		C91DD11B1E2AC23A0070EB0F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C91DD11A1E2AC23A0070EB0F /* AVFoundation.framework */; };
+		C9934F921E2AD0C700948961 /* camera-flash.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7A1E2AD0C700948961 /* camera-flash.png */; };
+		C9934F931E2AD0C700948961 /* camera-flash@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7B1E2AD0C700948961 /* camera-flash@2x.png */; };
+		C9934F941E2AD0C700948961 /* camera-switch.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7C1E2AD0C700948961 /* camera-switch.png */; };
+		C9934F951E2AD0C700948961 /* camera-switch@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7D1E2AD0C700948961 /* camera-switch@2x.png */; };
+		C9934F961E2AD0C700948961 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7E1E2AD0C700948961 /* cancel.png */; };
+		C9934F971E2AD0C700948961 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F7F1E2AD0C700948961 /* cancel@2x.png */; };
+		C9934F981E2AD0C700948961 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934F801E2AD0C700948961 /* cancel@3x.png */; };
+		C9934F991E2AD0C700948961 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F821E2AD0C700948961 /* CameraViewController.m */; };
+		C9934F9B1E2AD0C700948961 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F851E2AD0C700948961 /* ImageViewController.m */; };
+		C9934F9E1E2AD0C700948961 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F891E2AD0C700948961 /* UIImage+Crop.m */; };
+		C9934F9F1E2AD0C700948961 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F8B1E2AD0C700948961 /* UIImage+Resize.m */; };
+		C9934FA01E2AD0C700948961 /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F8D1E2AD0C700948961 /* VideoViewController.m */; };
+		C9934FA11E2AD0C700948961 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934F8F1E2AD0C700948961 /* ViewUtils.m */; };
 		C9F0B6FE1E2A913E009AB109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B6FD1E2A913E009AB109 /* main.m */; };
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
 		C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F0B7051E2A913E009AB109 /* Main.storyboard */; };
 		C9F0B7091E2A913E009AB109 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9F0B7081E2A913E009AB109 /* Assets.xcassets */; };
 		C9F0B70C1E2A913E009AB109 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9F0B70A1E2A913E009AB109 /* LaunchScreen.storyboard */; };
+		F0158DAF7D99B43C542360F8 /* libPods-ecopolyhack.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecopolyhack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ED914661E2AA538001E722D /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
 		3ED914671E2AA538001E722D /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
 		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
 		3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		91A7781D8E47F0EC979BBBB9 /* Pods-ecopolyhack.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecopolyhack.release.xcconfig"; path = "Pods/Target Support Files/Pods-ecopolyhack/Pods-ecopolyhack.release.xcconfig"; sourceTree = "<group>"; };
+		93810D0029147F91231E047F /* Pods-ecopolyhack.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ecopolyhack.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ecopolyhack/Pods-ecopolyhack.debug.xcconfig"; sourceTree = "<group>"; };
+		C91DD1121E2AB5180070EB0F /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		C91DD11A1E2AC23A0070EB0F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		C9934F7A1E2AD0C700948961 /* camera-flash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash.png"; sourceTree = "<group>"; };
+		C9934F7B1E2AD0C700948961 /* camera-flash@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-flash@2x.png"; sourceTree = "<group>"; };
+		C9934F7C1E2AD0C700948961 /* camera-switch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch.png"; sourceTree = "<group>"; };
+		C9934F7D1E2AD0C700948961 /* camera-switch@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "camera-switch@2x.png"; sourceTree = "<group>"; };
+		C9934F7E1E2AD0C700948961 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
+		C9934F7F1E2AD0C700948961 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
+		C9934F801E2AD0C700948961 /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
+		C9934F811E2AD0C700948961 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		C9934F821E2AD0C700948961 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		C9934F841E2AD0C700948961 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		C9934F851E2AD0C700948961 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
+		C9934F881E2AD0C700948961 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
+		C9934F891E2AD0C700948961 /* UIImage+Crop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Crop.m"; sourceTree = "<group>"; };
+		C9934F8A1E2AD0C700948961 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		C9934F8B1E2AD0C700948961 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		C9934F8C1E2AD0C700948961 /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		C9934F8D1E2AD0C700948961 /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		C9934F8E1E2AD0C700948961 /* ViewUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewUtils.h; sourceTree = "<group>"; };
+		C9934F8F1E2AD0C700948961 /* ViewUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewUtils.m; sourceTree = "<group>"; };
 		C9F0B6F91E2A913E009AB109 /* ecopolyhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecopolyhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F0B6FD1E2A913E009AB109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,17 +81,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C91DD11B1E2AC23A0070EB0F /* AVFoundation.framework in Frameworks */,
+				F0158DAF7D99B43C542360F8 /* libPods-ecopolyhack.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9241CF86D58DFDBF515CEEC4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93810D0029147F91231E047F /* Pods-ecopolyhack.debug.xcconfig */,
+				91A7781D8E47F0EC979BBBB9 /* Pods-ecopolyhack.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C91DD1191E2AC2390070EB0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C91DD11A1E2AC23A0070EB0F /* AVFoundation.framework */,
+				26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C9934F751E2AD0C700948961 /* LLSimpleCameraExample */ = {
+			isa = PBXGroup;
+			children = (
+				C9934F7A1E2AD0C700948961 /* camera-flash.png */,
+				C9934F7B1E2AD0C700948961 /* camera-flash@2x.png */,
+				C9934F7C1E2AD0C700948961 /* camera-switch.png */,
+				C9934F7D1E2AD0C700948961 /* camera-switch@2x.png */,
+				C9934F7E1E2AD0C700948961 /* cancel.png */,
+				C9934F7F1E2AD0C700948961 /* cancel@2x.png */,
+				C9934F801E2AD0C700948961 /* cancel@3x.png */,
+				C9934F811E2AD0C700948961 /* CameraViewController.h */,
+				C9934F821E2AD0C700948961 /* CameraViewController.m */,
+				C9934F841E2AD0C700948961 /* ImageViewController.h */,
+				C9934F851E2AD0C700948961 /* ImageViewController.m */,
+				C9934F881E2AD0C700948961 /* UIImage+Crop.h */,
+				C9934F891E2AD0C700948961 /* UIImage+Crop.m */,
+				C9934F8A1E2AD0C700948961 /* UIImage+Resize.h */,
+				C9934F8B1E2AD0C700948961 /* UIImage+Resize.m */,
+				C9934F8C1E2AD0C700948961 /* VideoViewController.h */,
+				C9934F8D1E2AD0C700948961 /* VideoViewController.m */,
+				C9934F8E1E2AD0C700948961 /* ViewUtils.h */,
+				C9934F8F1E2AD0C700948961 /* ViewUtils.m */,
+			);
+			name = LLSimpleCameraExample;
+			path = "../Desktop/LLSimpleCamera-master/LLSimpleCameraExample";
+			sourceTree = "<group>";
+		};
 		C9F0B6F01E2A913D009AB109 = {
 			isa = PBXGroup;
 			children = (
+				C9934F751E2AD0C700948961 /* LLSimpleCameraExample */,
 				C9F0B6FB1E2A913E009AB109 /* ecopolyhack */,
 				C9F0B6FA1E2A913E009AB109 /* Products */,
+				C91DD1191E2AC2390070EB0F /* Frameworks */,
+				9241CF86D58DFDBF515CEEC4 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +161,7 @@
 				C9F0B7021E2A913E009AB109 /* ViewController.h */,
 				C9F0B7031E2A913E009AB109 /* ViewController.m */,
 				C9F0B7051E2A913E009AB109 /* Main.storyboard */,
+				C91DD1121E2AB5180070EB0F /* Camera.storyboard */,
 				3ED9146B1E2AAE9D001E722D /* Feed.storyboard */,
 				3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */,
 				3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */,
@@ -99,9 +190,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9F0B7101E2A913E009AB109 /* Build configuration list for PBXNativeTarget "ecopolyhack" */;
 			buildPhases = (
+				3FA19F15DA7EAC4102C2BC2A /* [CP] Check Pods Manifest.lock */,
 				C9F0B6F51E2A913D009AB109 /* Sources */,
 				C9F0B6F61E2A913D009AB109 /* Frameworks */,
 				C9F0B6F71E2A913D009AB109 /* Resources */,
+				EDE3175A06076FB4B5CC2F87 /* [CP] Embed Pods Frameworks */,
+				5869DBFED060B0CA34E1BDDF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,7 +217,7 @@
 				TargetAttributes = {
 					C9F0B6F81E2A913D009AB109 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = 89WBEWPWMU;
+						DevelopmentTeam = GQZFDKJ72B;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -155,10 +249,66 @@
 				C9F0B7091E2A913E009AB109 /* Assets.xcassets in Resources */,
 				3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */,
 				C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */,
+				C9934F971E2AD0C700948961 /* cancel@2x.png in Resources */,
+				C9934F961E2AD0C700948961 /* cancel.png in Resources */,
+				C9934F931E2AD0C700948961 /* camera-flash@2x.png in Resources */,
+				C9934F941E2AD0C700948961 /* camera-switch.png in Resources */,
+				C9934F921E2AD0C700948961 /* camera-flash.png in Resources */,
+				C9934F981E2AD0C700948961 /* cancel@3x.png in Resources */,
+				C9934F951E2AD0C700948961 /* camera-switch@2x.png in Resources */,
+				C91DD1131E2AB5180070EB0F /* Camera.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FA19F15DA7EAC4102C2BC2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5869DBFED060B0CA34E1BDDF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ecopolyhack/Pods-ecopolyhack-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EDE3175A06076FB4B5CC2F87 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ecopolyhack/Pods-ecopolyhack-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C9F0B6F51E2A913D009AB109 /* Sources */ = {
@@ -168,8 +318,14 @@
 				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
+				C9934F9E1E2AD0C700948961 /* UIImage+Crop.m in Sources */,
+				C9934F9F1E2AD0C700948961 /* UIImage+Resize.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
 				3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */,
+				C9934F9B1E2AD0C700948961 /* ImageViewController.m in Sources */,
+				C9934FA11E2AD0C700948961 /* ViewUtils.m in Sources */,
+				C9934FA01E2AD0C700948961 /* VideoViewController.m in Sources */,
+				C9934F991E2AD0C700948961 /* CameraViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,9 +449,10 @@
 		};
 		C9F0B7111E2A913E009AB109 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93810D0029147F91231E047F /* Pods-ecopolyhack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 89WBEWPWMU;
+				DEVELOPMENT_TEAM = GQZFDKJ72B;
 				INFOPLIST_FILE = ecopolyhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliotfiske.ecopolyhack;
@@ -305,9 +462,10 @@
 		};
 		C9F0B7121E2A913E009AB109 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91A7781D8E47F0EC979BBBB9 /* Pods-ecopolyhack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 89WBEWPWMU;
+				DEVELOPMENT_TEAM = GQZFDKJ72B;
 				INFOPLIST_FILE = ecopolyhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliotfiske.ecopolyhack;
