@@ -29,53 +29,51 @@
             </objects>
             <point key="canvasLocation" x="-578" y="319"/>
         </scene>
-        <!--Item 1-->
-        <scene sceneID="IgC-tM-qFq">
-            <objects>
-                <viewController id="nJ5-RH-x2C" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="uQO-hb-Bab"/>
-                        <viewControllerLayoutGuide type="bottom" id="REX-NU-s7W"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="5cc-Lp-xDK">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                    </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="OQM-bd-sx9"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="RB3-lH-6cZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-579" y="-337"/>
-        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="hmn-ow-4Ve">
             <objects>
-                <tabBarController id="Z3g-2l-n1N" sceneMemberID="viewController">
+                <tabBarController storyboardIdentifier="tabMaster" id="Z3g-2l-n1N" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="A7n-if-q6j">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     </tabBar>
                     <connections>
-                        <segue destination="nJ5-RH-x2C" kind="relationship" relationship="viewControllers" id="I4S-a7-1q7"/>
                         <segue destination="Qno-ll-6Sa" kind="relationship" relationship="viewControllers" id="37J-fB-6O9"/>
+                        <segue destination="pPU-5H-MYS" kind="relationship" relationship="viewControllers" id="8U5-Z5-1ZG"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="6Wn-xL-nUR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1533" y="-11"/>
         </scene>
-        <!--Feed Table View Controller-->
+        <!--Item-->
+        <scene sceneID="WDZ-Py-Xux">
+            <objects>
+                <navigationController id="pPU-5H-MYS" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="LMi-jf-uob"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="a0R-eb-N1n">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="g9m-U8-ipe" kind="relationship" relationship="rootViewController" id="JIR-PO-3hk"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Dp-Km-pkB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-462" y="-370"/>
+        </scene>
+        <!--Challenges-->
         <scene sceneID="deW-wW-5yf">
             <objects>
-                <tableViewController id="g9m-U8-ipe" customClass="FeedTableViewController" sceneMemberID="viewController">
+                <tableViewController modalPresentationStyle="currentContext" id="g9m-U8-ipe" customClass="FeedTableViewController" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="180" sectionHeaderHeight="28" sectionFooterHeight="28" id="1So-jq-DzH">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="180" id="hxf-Xv-VnE">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="challengeCell" rowHeight="180" id="hxf-Xv-VnE" customClass="ChallengeCellTableViewCell">
                                 <rect key="frame" x="0.0" y="28" width="375" height="180"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="hxf-Xv-VnE" id="HkP-Ge-Mlj">
@@ -83,10 +81,10 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="GcC-ah-UEL">
-                                            <rect key="frame" x="8" y="8" width="66" height="67"/>
+                                            <rect key="frame" x="8" y="8" width="66" height="150"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="66" id="9YA-v2-DCj"/>
-                                                <constraint firstAttribute="height" constant="67" id="LVe-Ob-p5K"/>
+                                                <constraint firstAttribute="height" constant="150" id="LVe-Ob-p5K"/>
                                             </constraints>
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Challenge: Eat a donut!" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6UB-UR-eqD">
@@ -104,6 +102,10 @@
                                         <constraint firstAttribute="trailingMargin" secondItem="6UB-UR-eqD" secondAttribute="trailing" constant="12" id="qCY-Jr-ara"/>
                                     </constraints>
                                 </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="challengeImage" destination="GcC-ah-UEL" id="uoi-oE-d2O"/>
+                                    <outlet property="challengeText" destination="6UB-UR-eqD" id="iT6-Nl-clx"/>
+                                </connections>
                             </tableViewCell>
                         </prototypes>
                         <connections>
@@ -111,10 +113,12 @@
                             <outlet property="delegate" destination="g9m-U8-ipe" id="CrK-8d-gNm"/>
                         </connections>
                     </tableView>
+                    <tabBarItem key="tabBarItem" title="Challenges" badgeValue="3" id="5Mi-VP-Gfg"/>
+                    <navigationItem key="navigationItem" id="Dig-jt-Zzd"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a5U-3o-8Dd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-420" y="1089"/>
+            <point key="canvasLocation" x="350" y="-449"/>
         </scene>
     </scenes>
 </document>

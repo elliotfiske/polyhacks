@@ -10,6 +10,8 @@
 		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
 		3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Feed.storyboard */; };
 		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
+		3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */; };
+		3ED914761E2AB67A001E722D /* OnboardPageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */; };
 		C9F0B6FE1E2A913E009AB109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B6FD1E2A913E009AB109 /* main.m */; };
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
@@ -24,6 +26,10 @@
 		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
 		3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+		3ED914711E2AB573001E722D /* ChallengeCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeCellTableViewCell.h; sourceTree = "<group>"; };
+		3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeCellTableViewCell.m; sourceTree = "<group>"; };
+		3ED914741E2AB67A001E722D /* OnboardPageControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardPageControllerViewController.h; sourceTree = "<group>"; };
+		3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardPageControllerViewController.m; sourceTree = "<group>"; };
 		C9F0B6F91E2A913E009AB109 /* ecopolyhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecopolyhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F0B6FD1E2A913E009AB109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -71,9 +77,13 @@
 				C9F0B7021E2A913E009AB109 /* ViewController.h */,
 				C9F0B7031E2A913E009AB109 /* ViewController.m */,
 				C9F0B7051E2A913E009AB109 /* Main.storyboard */,
+				3ED914741E2AB67A001E722D /* OnboardPageControllerViewController.h */,
+				3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */,
 				3ED9146B1E2AAE9D001E722D /* Feed.storyboard */,
 				3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */,
 				3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */,
+				3ED914711E2AB573001E722D /* ChallengeCellTableViewCell.h */,
+				3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */,
 				3ED914661E2AA538001E722D /* OnboardingViewController.h */,
 				3ED914671E2AA538001E722D /* OnboardingViewController.m */,
 				C9F0B7081E2A913E009AB109 /* Assets.xcassets */,
@@ -166,6 +176,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
+				3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */,
+				3ED914761E2AB67A001E722D /* OnboardPageControllerViewController.m in Sources */,
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,

@@ -49,6 +49,7 @@
                             <constraint firstItem="VNN-GC-089" firstAttribute="centerX" secondItem="tsR-IF-QxE" secondAttribute="centerX" id="Yjf-3g-u7D"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="pAr-yZ-xKW"/>
                     <connections>
                         <outlet property="spinner" destination="VNN-GC-089" id="p0c-8r-QT1"/>
                     </connections>
@@ -65,10 +66,10 @@
             </objects>
             <point key="canvasLocation" x="137" y="-622"/>
         </scene>
-        <!--View Controller-->
+        <!--Onboard Page Controller View Controller-->
         <scene sceneID="Xbb-dc-y2E">
             <objects>
-                <viewController storyboardIdentifier="onboard1" id="TDX-jo-QDl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="onboard1" id="TDX-jo-QDl" customClass="OnboardPageControllerViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="HF5-7m-mLS"/>
                         <viewControllerLayoutGuide type="bottom" id="bQ7-cV-RUh"/>
@@ -76,12 +77,23 @@
                     <view key="view" contentMode="scaleToFill" id="ecb-N1-Ice">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="57v-ae-JpV">
+                                <rect key="frame" x="72" y="288" width="231" height="118"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="37"/>
+                                <state key="normal" title="To Challenges"/>
+                                <connections>
+                                    <action selector="goToChallenges:" destination="TDX-jo-QDl" eventType="touchUpInside" id="ELD-Uv-Ffn"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="0.2672299139" green="0.71536808529999996" blue="0.80279356059999996" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="EcA-Zv-9jK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1518" y="-851"/>
+            <point key="canvasLocation" x="1517.5999999999999" y="-851.42428785607206"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="pvY-3L-WQf">
