@@ -41,9 +41,8 @@
     self.imageView.image = self.image;
     [self.view addSubview:self.imageView];
    
-   self.button = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, self.view.frame.size.height - 100, 50, 50)];
-   [self.button setImage:[UIImage imageNamed:@"Messaging-Sent-icon.png"] forState:UIControlStateNormal];
-   self.button.transform = CGAffineTransformMakeRotation(45.0*M_PI/180.0);
+   self.button = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, self.view.frame.size.height - 80, 50, 50)];
+   [self.button setImage:[UIImage imageNamed:@"send-icon.png"] forState:UIControlStateNormal];
    [self.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
 
    [self.view addSubview:self.button];

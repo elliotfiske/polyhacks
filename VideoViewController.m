@@ -54,9 +54,8 @@
     [self.cancelButton addTarget:self action:@selector(cancelButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
     self.cancelButton.frame = CGRectMake(0, 0, 44, 44);
    
-   self.button = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, self.view.frame.size.height - 100, 50, 50)];
-   [self.button setImage:[UIImage imageNamed:@"Messaging-Sent-icon.png"] forState:UIControlStateNormal];
-   self.button.transform = CGAffineTransformMakeRotation(45.0*M_PI/180.0);
+   self.button = [[UIButton alloc] initWithFrame:CGRectMake(self.view.frame.size.width - 100, self.view.frame.size.height - 80, 50, 50)];
+   [self.button setImage:[UIImage imageNamed:@"send-icon.png"] forState:UIControlStateNormal];
    
    [self.button addTarget:self action:@selector(buttonClicked:) forControlEvents:UIControlEventTouchUpInside];
    
