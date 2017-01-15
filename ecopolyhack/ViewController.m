@@ -60,7 +60,7 @@
 }
 
 - (void) showOnboarding {
-  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Feed" bundle:nil];
+  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Challenges" bundle:nil];
   UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"tabMaster"];
 
   [vc setModalTransitionStyle:UIModalPresentationPopover];

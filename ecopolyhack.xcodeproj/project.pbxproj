@@ -9,8 +9,10 @@
 /* Begin PBXBuildFile section */
 		3E3D15AB1E2AF13600F0D778 /* TabsForDabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */; };
 		3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */; };
+		3E3D15B11E2B0C5A00F0D778 /* NewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */; };
+		3E3D15B31E2B0C7B00F0D778 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */; };
 		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
-		3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Feed.storyboard */; };
+		3ED9146D1E2AAE9D001E722D /* Challenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Challenges.storyboard */; };
 		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
 		3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914721E2AB573001E722D /* ChallengeCellTableViewCell.m */; };
 		3ED914761E2AB67A001E722D /* OnboardPageControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */; };
@@ -47,9 +49,12 @@
 		3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabsForDabs.m; path = ecopolyhack/TabsForDabs.m; sourceTree = "<group>"; };
 		3E3D15AC1E2AFB5B00F0D778 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
 		3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
+		3E3D15AF1E2B0C5A00F0D778 /* NewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedTableViewController.h; sourceTree = "<group>"; };
+		3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTableViewController.m; sourceTree = "<group>"; };
+		3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewsFeed.storyboard; sourceTree = "<group>"; };
 		3ED914661E2AA538001E722D /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
 		3ED914671E2AA538001E722D /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
-		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
+		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Challenges.storyboard; sourceTree = "<group>"; };
 		3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
 		3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
 		3ED914711E2AB573001E722D /* ChallengeCellTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeCellTableViewCell.h; sourceTree = "<group>"; };
@@ -162,6 +167,9 @@
 		C9F0B6F01E2A913D009AB109 = {
 			isa = PBXGroup;
 			children = (
+				3E3D15AF1E2B0C5A00F0D778 /* NewsFeedTableViewController.h */,
+				3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */,
+				3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */,
 				C9F0B6FB1E2A913E009AB109 /* ecopolyhack */,
 				C9F0B6FA1E2A913E009AB109 /* Products */,
 				C91DD1191E2AC2390070EB0F /* Frameworks */,
@@ -190,7 +198,7 @@
 				3ED914741E2AB67A001E722D /* OnboardPageControllerViewController.h */,
 				3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */,
 				C91DD1121E2AB5180070EB0F /* Camera.storyboard */,
-				3ED9146B1E2AAE9D001E722D /* Feed.storyboard */,
+				3ED9146B1E2AAE9D001E722D /* Challenges.storyboard */,
 				3ED9146E1E2AAFCA001E722D /* FeedTableViewController.h */,
 				3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */,
 				3ED914711E2AB573001E722D /* ChallengeCellTableViewCell.h */,
@@ -277,7 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9F0B70C1E2A913E009AB109 /* LaunchScreen.storyboard in Resources */,
-				3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */,
+				3E3D15B31E2B0C7B00F0D778 /* NewsFeed.storyboard in Resources */,
+				3ED9146D1E2AAE9D001E722D /* Challenges.storyboard in Resources */,
 				C9934FCB1E2AEC4900948961 /* send-icon.png in Resources */,
 				3ED914781E2ACAB4001E722D /* Assets.xcassets in Resources */,
 				C9934FB91E2AD85D00948961 /* Messaging-Sent-icon.png in Resources */,
@@ -360,6 +369,7 @@
 				3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
+				3E3D15B11E2B0C5A00F0D778 /* NewsFeedTableViewController.m in Sources */,
 				C9934FC61E2AD85D00948961 /* ViewUtils.m in Sources */,
 				3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */,
 				C9934FC51E2AD85D00948961 /* VideoViewController.m in Sources */,
@@ -370,12 +380,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3ED9146B1E2AAE9D001E722D /* Feed.storyboard */ = {
+		3ED9146B1E2AAE9D001E722D /* Challenges.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				3ED9146C1E2AAE9D001E722D /* Base */,
 			);
-			name = Feed.storyboard;
+			name = Challenges.storyboard;
 			sourceTree = "<group>";
 		};
 		C9F0B7051E2A913E009AB109 /* Main.storyboard */ = {

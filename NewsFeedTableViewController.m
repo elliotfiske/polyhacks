@@ -1,20 +1,18 @@
 //
-//  FeedTableViewController.m
+//  NewsFeedTableViewController.m
 //  ecopolyhack
 //
 //  Created by Myra Lukens on 1/14/17.
 //  Copyright © 2017 Elliot Fiske. All rights reserved.
 //
 
-#import "FeedTableViewController.h"
-#import "ChallengeCellTableViewCell.h"
-#import "Util.h"
+#import "NewsFeedTableViewController.h"
 
-@interface FeedTableViewController ()
+@interface NewsFeedTableViewController ()
 
 @end
 
-@implementation FeedTableViewController
+@implementation NewsFeedTableViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -24,9 +22,6 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.navigationItem.title = @"CHALLENGES";
-  self.tableView.rowHeight = UITableViewAutomaticDimension;
-  self.tableView.estimatedRowHeight = 225;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -37,48 +32,24 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 3;
+#warning Incomplete implementation, return the number of sections
+    return 0;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-  if (section == 0 || section == 1) return 1;
-  if (section == 2) return 3;
-
-  NSLog(@"UH OH SPAGHETTIO");
-  return 0;
+#warning Incomplete implementation, return the number of rows
+    return 0;
 }
 
+/*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-
-  UITableViewCell *cell;
-
-  if (indexPath.section == 0) {
-    ChallengeCellTableViewCell *chlCell = [tableView dequeueReusableCellWithIdentifier:@"myChallenge" forIndexPath:indexPath];
-    cell = chlCell;
-  }
-  else if (indexPath.section == 1) {
-    UITableViewCell *intermedCell = [tableView dequeueReusableCellWithIdentifier:@"intermediate" forIndexPath:indexPath];
-    cell = intermedCell;
-  }
-  else if (indexPath.section == 2) {
-    ChallengeCellTableViewCell *chlCell = [tableView dequeueReusableCellWithIdentifier:@"friendChallenge" forIndexPath:indexPath];
-    cell = chlCell;
-  }
-
-//  cell.challengeText.text = @"Bring!";
-//  cell.challengeImage.image = [UIImage imageNamed:@"sampleChl"];
-
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    
+    // Configure the cell...
     
     return cell;
 }
-
-- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Camera" bundle:nil];
-  UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"cameraStart"];
-
-  [self.navigationController presentViewController:vc animated:YES completion:nil];
-}
-
+*/
 
 /*
 // Override to support conditional editing of the table view.
@@ -97,6 +68,20 @@
     } else if (editingStyle == UITableViewCellEditingStyleInsert) {
         // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
     }   
+}
+*/
+
+/*
+// Override to support rearranging the table view.
+- (void)tableView:(UITableView *)tableView moveRowAtIndexPath:(NSIndexPath *)fromIndexPath toIndexPath:(NSIndexPath *)toIndexPath {
+}
+*/
+
+/*
+// Override to support conditional rearranging of the table view.
+- (BOOL)tableView:(UITableView *)tableView canMoveRowAtIndexPath:(NSIndexPath *)indexPath {
+    // Return NO if you do not want the item to be re-orderable.
+    return YES;
 }
 */
 
