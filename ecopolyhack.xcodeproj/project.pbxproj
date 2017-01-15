@@ -24,7 +24,6 @@
 		C9934FBE1E2AD85D00948961 /* cancel.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934FA91E2AD85D00948961 /* cancel.png */; };
 		C9934FBF1E2AD85D00948961 /* cancel@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934FAA1E2AD85D00948961 /* cancel@2x.png */; };
 		C9934FC01E2AD85D00948961 /* cancel@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934FAB1E2AD85D00948961 /* cancel@3x.png */; };
-		C9934FC11E2AD85D00948961 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FAD1E2AD85D00948961 /* CameraViewController.m */; };
 		C9934FC21E2AD85D00948961 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FAF1E2AD85D00948961 /* ImageViewController.m */; };
 		C9934FC31E2AD85D00948961 /* UIImage+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FB11E2AD85D00948961 /* UIImage+Crop.m */; };
 		C9934FC41E2AD85D00948961 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FB31E2AD85D00948961 /* UIImage+Resize.m */; };
@@ -32,6 +31,7 @@
 		C9934FC61E2AD85D00948961 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FB71E2AD85D00948961 /* ViewUtils.m */; };
 		C9934FC91E2ADF4800948961 /* ChallengeSubmittedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FC81E2ADF4800948961 /* ChallengeSubmittedViewController.m */; };
 		C9934FCB1E2AEC4900948961 /* send-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934FCA1E2AEC4900948961 /* send-icon.png */; };
+		C9934FCE1E2AFB3F00948961 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FCD1E2AFB3F00948961 /* CameraViewController.m */; };
 		C9F0B6FE1E2A913E009AB109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B6FD1E2A913E009AB109 /* main.m */; };
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
@@ -66,8 +66,6 @@
 		C9934FA91E2AD85D00948961 /* cancel.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cancel.png; sourceTree = "<group>"; };
 		C9934FAA1E2AD85D00948961 /* cancel@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@2x.png"; sourceTree = "<group>"; };
 		C9934FAB1E2AD85D00948961 /* cancel@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cancel@3x.png"; sourceTree = "<group>"; };
-		C9934FAC1E2AD85D00948961 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CameraViewController.h; path = /Users/elliotfiske/polyhacks/CameraViewController.h; sourceTree = "<absolute>"; };
-		C9934FAD1E2AD85D00948961 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CameraViewController.m; path = /Users/elliotfiske/polyhacks/CameraViewController.m; sourceTree = "<absolute>"; };
 		C9934FAE1E2AD85D00948961 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
 		C9934FAF1E2AD85D00948961 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 		C9934FB01E2AD85D00948961 /* UIImage+Crop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Crop.h"; sourceTree = "<group>"; };
@@ -81,6 +79,8 @@
 		C9934FC71E2ADF4800948961 /* ChallengeSubmittedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeSubmittedViewController.h; sourceTree = "<group>"; };
 		C9934FC81E2ADF4800948961 /* ChallengeSubmittedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeSubmittedViewController.m; sourceTree = "<group>"; };
 		C9934FCA1E2AEC4900948961 /* send-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send-icon.png"; sourceTree = "<group>"; };
+		C9934FCC1E2AFB3F00948961 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		C9934FCD1E2AFB3F00948961 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		C9F0B6F91E2A913E009AB109 /* ecopolyhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecopolyhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F0B6FD1E2A913E009AB109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -136,10 +136,10 @@
 				C9934FA91E2AD85D00948961 /* cancel.png */,
 				C9934FAA1E2AD85D00948961 /* cancel@2x.png */,
 				C9934FAB1E2AD85D00948961 /* cancel@3x.png */,
-				C9934FAC1E2AD85D00948961 /* CameraViewController.h */,
-				C9934FAD1E2AD85D00948961 /* CameraViewController.m */,
 				C9934FAE1E2AD85D00948961 /* ImageViewController.h */,
 				C9934FAF1E2AD85D00948961 /* ImageViewController.m */,
+				C9934FCC1E2AFB3F00948961 /* CameraViewController.h */,
+				C9934FCD1E2AFB3F00948961 /* CameraViewController.m */,
 				C9934FB01E2AD85D00948961 /* UIImage+Crop.h */,
 				C9934FB11E2AD85D00948961 /* UIImage+Crop.m */,
 				C9934FB21E2AD85D00948961 /* UIImage+Resize.h */,
@@ -343,6 +343,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9934FCE1E2AFB3F00948961 /* CameraViewController.m in Sources */,
 				C9934FC21E2AD85D00948961 /* ImageViewController.m in Sources */,
 				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
 				3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */,
@@ -353,7 +354,6 @@
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
-				C9934FC11E2AD85D00948961 /* CameraViewController.m in Sources */,
 				C9934FC61E2AD85D00948961 /* ViewUtils.m in Sources */,
 				3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */,
 				C9934FC51E2AD85D00948961 /* VideoViewController.m in Sources */,
