@@ -11,6 +11,10 @@
 @interface ChallengeCellTableViewCell : UITableViewCell
 
 @property (weak, nonatomic) IBOutlet UIImageView *challengeImage;
+@property (weak, nonatomic) IBOutlet UIButton *heartButton;
 @property (weak, nonatomic) IBOutlet UILabel *challengeText;
+@property BOOL liked;
+@property int likes;
+@property (weak, nonatomic) IBOutlet UILabel *numLikes;
 
 @end

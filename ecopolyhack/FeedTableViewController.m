@@ -25,6 +25,8 @@
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigationItem.title = @"CHALLENGES";
+  self.tableView.rowHeight = UITableViewAutomaticDimension;
+  self.tableView.estimatedRowHeight = 225;
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,26 +37,35 @@
 #pragma mark - Table view data source
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-    return 2;
-}
-
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
     return 3;
 }
 
-- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
-  if (section == 0) {
-    return nil;
-  }
-  else {
-    return @"Previous Winners";
-  }
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+  if (section == 0 || section == 1) return 1;
+  if (section == 2) return 3;
+
+  NSLog(@"UH OH SPAGHETTIO");
+  return 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-     ChallengeCellTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"challengeCell" forIndexPath:indexPath];
 
-  cell.challengeText.text = @"Recycle a water bottle!";
+  UITableViewCell *cell;
+
+  if (indexPath.section == 0) {
+    ChallengeCellTableViewCell *chlCell = [tableView dequeueReusableCellWithIdentifier:@"myChallenge" forIndexPath:indexPath];
+    cell = chlCell;
+  }
+  else if (indexPath.section == 1) {
+    UITableViewCell *intermedCell = [tableView dequeueReusableCellWithIdentifier:@"intermediate" forIndexPath:indexPath];
+    cell = intermedCell;
+  }
+  else if (indexPath.section == 2) {
+    ChallengeCellTableViewCell *chlCell = [tableView dequeueReusableCellWithIdentifier:@"friendChallenge" forIndexPath:indexPath];
+    cell = chlCell;
+  }
+
+//  cell.challengeText.text = @"Bring!";
 //  cell.challengeImage.image = [UIImage imageNamed:@"sampleChl"];
 
     
