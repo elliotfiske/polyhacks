@@ -28,7 +28,7 @@
 
     self.view.backgroundColor = [UIColor blackColor];
     [self.navigationController setNavigationBarHidden:YES animated:NO];
-    
+
     CGRect screenRect = [[UIScreen mainScreen] bounds];
     
     // ----- initialize camera -------- //

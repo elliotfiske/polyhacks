@@ -56,7 +56,7 @@
    UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"challengeSubmitted"];
    
    [vc setModalTransitionStyle:UIModalPresentationPopover];
-   [self presentViewController:vc animated:YES completion:nil];
+  [self presentViewController:vc animated:YES completion:nil];
 }
 
 - (void)viewTapped:(UIGestureRecognizer *)gesture {
