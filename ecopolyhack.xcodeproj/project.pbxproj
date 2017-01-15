@@ -11,6 +11,13 @@
 		3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */; };
 		3E3D15B11E2B0C5A00F0D778 /* NewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */; };
 		3E3D15B31E2B0C7B00F0D778 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */; };
+		3E3D15BB1E2B1A7700F0D778 /* nick_demo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B41E2B1A7700F0D778 /* nick_demo.MOV */; };
+		3E3D15BE1E2B1A7700F0D778 /* no_lights.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B71E2B1A7700F0D778 /* no_lights.MOV */; };
+		3E3D15BF1E2B1A7700F0D778 /* thirsty.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B81E2B1A7700F0D778 /* thirsty.MOV */; };
+		3E3D15C01E2B1A7700F0D778 /* bottle.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B91E2B1A7700F0D778 /* bottle.MOV */; };
+		3E3D15C11E2B1A7700F0D778 /* bottle2.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15BA1E2B1A7700F0D778 /* bottle2.MOV */; };
+		3E3D15C31E2B1C8100F0D778 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E3D15C21E2B1C8100F0D778 /* MediaPlayer.framework */; };
+		3E3D15C61E2B21C800F0D778 /* ahahahahahaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15C51E2B21C800F0D778 /* ahahahahahaViewController.m */; };
 		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
 		3ED9146D1E2AAE9D001E722D /* Challenges.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Challenges.storyboard */; };
 		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
@@ -52,6 +59,14 @@
 		3E3D15AF1E2B0C5A00F0D778 /* NewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedTableViewController.h; sourceTree = "<group>"; };
 		3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTableViewController.m; sourceTree = "<group>"; };
 		3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewsFeed.storyboard; sourceTree = "<group>"; };
+		3E3D15B41E2B1A7700F0D778 /* nick_demo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = nick_demo.MOV; path = movies/nick_demo.MOV; sourceTree = "<group>"; };
+		3E3D15B71E2B1A7700F0D778 /* no_lights.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = no_lights.MOV; path = movies/no_lights.MOV; sourceTree = "<group>"; };
+		3E3D15B81E2B1A7700F0D778 /* thirsty.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = thirsty.MOV; path = movies/thirsty.MOV; sourceTree = "<group>"; };
+		3E3D15B91E2B1A7700F0D778 /* bottle.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = bottle.MOV; path = movies/bottle.MOV; sourceTree = "<group>"; };
+		3E3D15BA1E2B1A7700F0D778 /* bottle2.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; name = bottle2.MOV; path = movies/bottle2.MOV; sourceTree = "<group>"; };
+		3E3D15C21E2B1C8100F0D778 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		3E3D15C41E2B21C800F0D778 /* ahahahahahaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ahahahahahaViewController.h; sourceTree = "<group>"; };
+		3E3D15C51E2B21C800F0D778 /* ahahahahahaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ahahahahahaViewController.m; sourceTree = "<group>"; };
 		3ED914661E2AA538001E722D /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
 		3ED914671E2AA538001E722D /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
 		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Challenges.storyboard; sourceTree = "<group>"; };
@@ -105,6 +120,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E3D15C31E2B1C8100F0D778 /* MediaPlayer.framework in Frameworks */,
 				C91DD11B1E2AC23A0070EB0F /* AVFoundation.framework in Frameworks */,
 				F0158DAF7D99B43C542360F8 /* libPods-ecopolyhack.a in Frameworks */,
 			);
@@ -125,6 +141,7 @@
 		C91DD1191E2AC2390070EB0F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3E3D15C21E2B1C8100F0D778 /* MediaPlayer.framework */,
 				C91DD11A1E2AC23A0070EB0F /* AVFoundation.framework */,
 				26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */,
 			);
@@ -167,6 +184,11 @@
 		C9F0B6F01E2A913D009AB109 = {
 			isa = PBXGroup;
 			children = (
+				3E3D15B41E2B1A7700F0D778 /* nick_demo.MOV */,
+				3E3D15B71E2B1A7700F0D778 /* no_lights.MOV */,
+				3E3D15B81E2B1A7700F0D778 /* thirsty.MOV */,
+				3E3D15B91E2B1A7700F0D778 /* bottle.MOV */,
+				3E3D15BA1E2B1A7700F0D778 /* bottle2.MOV */,
 				3E3D15AF1E2B0C5A00F0D778 /* NewsFeedTableViewController.h */,
 				3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */,
 				3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */,
@@ -195,6 +217,8 @@
 				C9F0B7021E2A913E009AB109 /* ViewController.h */,
 				C9F0B7031E2A913E009AB109 /* ViewController.m */,
 				C9F0B7051E2A913E009AB109 /* Main.storyboard */,
+				3E3D15C41E2B21C800F0D778 /* ahahahahahaViewController.h */,
+				3E3D15C51E2B21C800F0D778 /* ahahahahahaViewController.m */,
 				3ED914741E2AB67A001E722D /* OnboardPageControllerViewController.h */,
 				3ED914751E2AB67A001E722D /* OnboardPageControllerViewController.m */,
 				C91DD1121E2AB5180070EB0F /* Camera.storyboard */,
@@ -286,6 +310,7 @@
 			files = (
 				C9F0B70C1E2A913E009AB109 /* LaunchScreen.storyboard in Resources */,
 				3E3D15B31E2B0C7B00F0D778 /* NewsFeed.storyboard in Resources */,
+				3E3D15BE1E2B1A7700F0D778 /* no_lights.MOV in Resources */,
 				3ED9146D1E2AAE9D001E722D /* Challenges.storyboard in Resources */,
 				C9934FCB1E2AEC4900948961 /* send-icon.png in Resources */,
 				3ED914781E2ACAB4001E722D /* Assets.xcassets in Resources */,
@@ -293,12 +318,16 @@
 				C9934FBF1E2AD85D00948961 /* cancel@2x.png in Resources */,
 				C9934FBE1E2AD85D00948961 /* cancel.png in Resources */,
 				C9934FBB1E2AD85D00948961 /* camera-flash@2x.png in Resources */,
+				3E3D15C11E2B1A7700F0D778 /* bottle2.MOV in Resources */,
+				3E3D15C01E2B1A7700F0D778 /* bottle.MOV in Resources */,
 				C9934FBC1E2AD85D00948961 /* camera-switch.png in Resources */,
 				C9934FBA1E2AD85D00948961 /* camera-flash.png in Resources */,
 				C9934FC01E2AD85D00948961 /* cancel@3x.png in Resources */,
 				C9934FBD1E2AD85D00948961 /* camera-switch@2x.png in Resources */,
+				3E3D15BB1E2B1A7700F0D778 /* nick_demo.MOV in Resources */,
 				C9F0B7071E2A913E009AB109 /* Main.storyboard in Resources */,
 				C91DD1131E2AB5180070EB0F /* Camera.storyboard in Resources */,
+				3E3D15BF1E2B1A7700F0D778 /* thirsty.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +401,7 @@
 				3E3D15B11E2B0C5A00F0D778 /* NewsFeedTableViewController.m in Sources */,
 				C9934FC61E2AD85D00948961 /* ViewUtils.m in Sources */,
 				3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */,
+				3E3D15C61E2B21C800F0D778 /* ahahahahahaViewController.m in Sources */,
 				C9934FC51E2AD85D00948961 /* VideoViewController.m in Sources */,
 				3ED9147A1E2AD1F5001E722D /* Util.m in Sources */,
 			);

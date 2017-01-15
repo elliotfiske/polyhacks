@@ -7,6 +7,8 @@
 //
 
 #import "NewsFeedTableViewController.h"
+#import "Util.h"
+
 
 @interface NewsFeedTableViewController ()
 
@@ -31,25 +33,63 @@
 
 #pragma mark - Table view data source
 
-- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
-#warning Incomplete implementation, return the number of sections
-    return 0;
+- (UIView *)tableView:(UITableView *)tableView viewForHeaderInSection:(NSInteger)section {
+  UIView *result = nil;
+  result = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 500, 50)];
+  result.backgroundColor = [UIColor whiteColor];
+  UILabel *fart = [[UILabel alloc] initWithFrame:CGRectMake(12, 0, 500, 50)];
+
+  if (section == 0) {
+    fart.text = @"January 14, 2017 — Throw Away Some Trash";
+  }
+  else {
+    fart.text = @"January 13, 2017 — Turn Off Some Lights";
+  }
+
+//  fart.textAlignment = NSTextAlignmentCenter;
+  fart.font = [fart.font fontWithSize:16];
+  fart.textColor = UIColorFromRGB(0x40b193);
+  [result addSubview:fart];
+
+  return result;
 }
 
-- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-#warning Incomplete implementation, return the number of rows
-    return 0;
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+  return 50;
 }
 
-/*
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
-    
-    // Configure the cell...
-    
-    return cell;
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
+{
+  if (indexPath.section == 0) {
+    NSBundle *bundle = [NSBundle mainBundle];
+    NSString *moviePath = [bundle pathForResource:@"nick_demo" ofType:@"MOV"];
+    NSURL *movieURL = [NSURL fileURLWithPath:moviePath];
+
+    self.theMoviPlayer = [[MPMoviePlayerController alloc] initWithContentURL:movieURL];
+    self.theMoviPlayer.controlStyle = MPMovieControlStyleFullscreen;
+//    self.theMoviPlayer.view.transform = CGAffineTransformConcat(self.theMoviPlayer.view.transform, CGAffineTransformMakeRotation(M_PI_2));
+    UIWindow *backgroundWindow = [[UIApplication sharedApplication] keyWindow];
+    [self.theMoviPlayer.view setFrame:backgroundWindow.frame];
+    [backgroundWindow addSubview:self.theMoviPlayer.view];
+    [self.theMoviPlayer play];
+
+    double delayInSeconds = 4;
+    dispatch_time_t popTime = dispatch_time(DISPATCH_TIME_NOW, delayInSeconds * NSEC_PER_SEC);
+    dispatch_after(popTime, dispatch_get_main_queue(), ^(void){
+      [self killMovie];
+    });
+  }
+  else if (indexPath.section == 1) {
+
+  }
 }
-*/
+
+- (void)killMovie {
+  [self.theMoviPlayer stop];
+  [self.theMoviPlayer.view removeFromSuperview];
+
+}
 
 /*
 // Override to support conditional editing of the table view.

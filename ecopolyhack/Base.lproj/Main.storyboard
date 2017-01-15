@@ -22,6 +22,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SPLASH PAGE" translatesAutoresizingMaskIntoConstraints="NO" id="7Qe-AP-xqv">
+                                <rect key="frame" x="-0.5" y="-0.5" width="375" height="667"/>
+                            </imageView>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="VNN-GC-089">
                                 <rect key="frame" x="167" y="571" width="20" height="20"/>
                             </activityIndicatorView>
@@ -43,10 +46,14 @@
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="7Qe-AP-xqv" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="4AK-5r-NDg"/>
+                            <constraint firstItem="7Qe-AP-xqv" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="8q9-h2-Arw"/>
                             <constraint firstItem="VNN-GC-089" firstAttribute="centerY" secondItem="tsR-IF-QxE" secondAttribute="centerY" id="ARA-bz-R9k"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="tsR-IF-QxE" secondAttribute="bottom" constant="62" id="CTn-k9-zkD"/>
                             <constraint firstItem="tsR-IF-QxE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="30" id="Qed-Q6-ShT"/>
+                            <constraint firstItem="7Qe-AP-xqv" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="T5w-bM-gqo"/>
                             <constraint firstItem="VNN-GC-089" firstAttribute="centerX" secondItem="tsR-IF-QxE" secondAttribute="centerX" id="Yjf-3g-u7D"/>
+                            <constraint firstItem="7Qe-AP-xqv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="i7c-Kv-2iw"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="pAr-yZ-xKW"/>
@@ -133,6 +140,7 @@
         </scene>
     </scenes>
     <resources>
+        <image name="SPLASH PAGE" width="376" height="667"/>
         <image name="fblogin" width="525" height="96"/>
     </resources>
 </document>

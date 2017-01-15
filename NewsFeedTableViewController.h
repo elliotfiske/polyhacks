@@ -7,7 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MediaPlayer/MediaPlayer.h>
 
 @interface NewsFeedTableViewController : UITableViewController
+
+@property (strong, nonatomic) MPMoviePlayerController *theMoviPlayer;
 
 @end

@@ -28,7 +28,7 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="CHUNK" translatesAutoresizingMaskIntoConstraints="NO" id="1OR-hb-VPU">
-                                                    <rect key="frame" x="-0.5" y="0.0" width="375" height="454.5"/>
+                                                    <rect key="frame" x="-1" y="0.0" width="376" height="455"/>
                                                 </imageView>
                                             </subviews>
                                             <constraints>
@@ -79,7 +79,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Zwj-8F-wkj" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1756" y="-166"/>
+            <point key="canvasLocation" x="-1951" y="-279"/>
         </scene>
     </scenes>
     <resources>
