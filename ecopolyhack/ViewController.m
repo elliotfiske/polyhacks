@@ -17,33 +17,36 @@
 @implementation ViewController
 
 - (IBAction)touchDownFacebook:(UIView *)fbButton {
+
+
+}
+
+- (IBAction)touchUpFacebook:(UIView *)fbButton {
   [UIView animateWithDuration:0.1
                         delay:0
                       options:UIViewAnimationOptionCurveEaseIn animations:^{
                         fbButton.transform = CGAffineTransformMakeScale(1.15,1.15);
                         fbButton.backgroundColor = [UIColor brownColor];
-                      } completion:nil];
+                      } completion:^(BOOL finished) {
+                        [UIView animateWithDuration:0.18
+                                              delay:0
+                                            options:UIViewAnimationOptionCurveEaseIn animations:^{
+                                              fbButton.transform = CGAffineTransformMakeScale(0.001,0.001);
+                                              fbButton.backgroundColor = [UIColor brownColor];
+                                            } completion:^(BOOL finished){
 
-}
+                                              [UIView animateWithDuration:0.25 delay:0.1
+                                                   usingSpringWithDamping:0.3f initialSpringVelocity:5.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
+                                                     self.spinner.transform = CGAffineTransformMakeScale(2.0,2.0);
+                                                   }
+                                                               completion:^(BOOL finished) {
+                                                                 
+                                                                 [self performSelector:@selector(showOnboarding) withObject:nil afterDelay:1.5 ];
+                                                                 
+                                                                 
+                                                               }];
+                                            }];
 
-- (IBAction)touchUpFacebook:(UIView *)fbButton {
-  [UIView animateWithDuration:0.18
-                        delay:0
-                      options:UIViewAnimationOptionCurveEaseIn animations:^{
-                        fbButton.transform = CGAffineTransformMakeScale(0.001,0.001);
-                        fbButton.backgroundColor = [UIColor brownColor];
-                      } completion:^(BOOL finished){
-
-                        [UIView animateWithDuration:0.25 delay:0.1
-                             usingSpringWithDamping:0.3f initialSpringVelocity:5.0f options:UIViewAnimationOptionCurveEaseInOut animations:^{
-                          self.spinner.transform = CGAffineTransformMakeScale(2.0,2.0);
-                        }
-                                         completion:^(BOOL finished) {
-
-                                           [self performSelector:@selector(showOnboarding) withObject:nil afterDelay:1.5 ];
-
-
-                                         }];
                       }];
 
 

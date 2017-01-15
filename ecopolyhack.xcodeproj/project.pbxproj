@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E3D15AB1E2AF13600F0D778 /* TabsForDabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */; };
+		3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */; };
 		3ED914691E2AA538001E722D /* OnboardingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED914671E2AA538001E722D /* OnboardingViewController.m */; };
 		3ED9146D1E2AAE9D001E722D /* Feed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ED9146B1E2AAE9D001E722D /* Feed.storyboard */; };
 		3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ED9146F1E2AAFCA001E722D /* FeedTableViewController.m */; };
@@ -42,6 +44,10 @@
 
 /* Begin PBXFileReference section */
 		26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecopolyhack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E3D15A91E2AF13600F0D778 /* TabsForDabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabsForDabs.h; path = ecopolyhack/TabsForDabs.h; sourceTree = "<group>"; };
+		3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabsForDabs.m; path = ecopolyhack/TabsForDabs.m; sourceTree = "<group>"; };
+		3E3D15AC1E2AFB5B00F0D778 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		3ED914661E2AA538001E722D /* OnboardingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OnboardingViewController.h; sourceTree = "<group>"; };
 		3ED914671E2AA538001E722D /* OnboardingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OnboardingViewController.m; sourceTree = "<group>"; };
 		3ED9146C1E2AAE9D001E722D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Feed.storyboard; sourceTree = "<group>"; };
@@ -126,7 +132,11 @@
 		C9934FB81E2AD85D00948961 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
+				3E3D15AC1E2AFB5B00F0D778 /* CameraViewController.h */,
+				3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */,
 				C9934FA41E2AD85D00948961 /* Messaging-Sent-icon.png */,
+				3E3D15A91E2AF13600F0D778 /* TabsForDabs.h */,
+				3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */,
 				C9934FA51E2AD85D00948961 /* camera-flash.png */,
 				C9934FA61E2AD85D00948961 /* camera-flash@2x.png */,
 				C9934FA71E2AD85D00948961 /* camera-switch.png */,
@@ -243,7 +253,7 @@
 				TargetAttributes = {
 					C9F0B6F81E2A913D009AB109 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = GQZFDKJ72B;
+						DevelopmentTeam = 89WBEWPWMU;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -347,11 +357,13 @@
 				C9934FC21E2AD85D00948961 /* ImageViewController.m in Sources */,
 				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
 				3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */,
+				3E3D15AB1E2AF13600F0D778 /* TabsForDabs.m in Sources */,
 				C9934FC91E2ADF4800948961 /* ChallengeSubmittedViewController.m in Sources */,
 				3ED914761E2AB67A001E722D /* OnboardPageControllerViewController.m in Sources */,
 				C9934FC31E2AD85D00948961 /* UIImage+Crop.m in Sources */,
 				C9934FC41E2AD85D00948961 /* UIImage+Resize.m in Sources */,
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
+				3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
 				C9934FC61E2AD85D00948961 /* ViewUtils.m in Sources */,
@@ -484,7 +496,7 @@
 			baseConfigurationReference = 93810D0029147F91231E047F /* Pods-ecopolyhack.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GQZFDKJ72B;
+				DEVELOPMENT_TEAM = 89WBEWPWMU;
 				INFOPLIST_FILE = ecopolyhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliotfiske.ecopolyhack;
@@ -497,7 +509,7 @@
 			baseConfigurationReference = 91A7781D8E47F0EC979BBBB9 /* Pods-ecopolyhack.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = GQZFDKJ72B;
+				DEVELOPMENT_TEAM = 89WBEWPWMU;
 				INFOPLIST_FILE = ecopolyhack/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.elliotfiske.ecopolyhack;
