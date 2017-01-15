@@ -128,18 +128,6 @@
         [self.switchButton addTarget:self action:@selector(switchButtonPressed:) forControlEvents:UIControlEventTouchUpInside];
         [self.view addSubview:self.switchButton];
     }
-    
-    self.segmentedControl = [[UISegmentedControl alloc] initWithItems:@[@"Picture",@"Video"]];
-    self.segmentedControl.frame = CGRectMake(12.0f, screenRect.size.height - 67.0f, 120.0f, 32.0f);
-    self.segmentedControl.selectedSegmentIndex = 0;
-    self.segmentedControl.tintColor = [UIColor whiteColor];
-    [self.segmentedControl addTarget:self action:@selector(segmentedControlValueChanged:) forControlEvents:UIControlEventValueChanged];
-    [self.view addSubview:self.segmentedControl];
-}
-
-- (void)segmentedControlValueChanged:(UISegmentedControl *)control
-{
-    NSLog(@"Segment value changed!");
 }
 
 - (void)viewWillAppear:(BOOL)animated
@@ -184,20 +172,7 @@
 {
     __weak typeof(self) weakSelf = self;
     
-    if(self.segmentedControl.selectedSegmentIndex == 0) {
-        // capture
-        [self.camera capture:^(LLSimpleCamera *camera, UIImage *image, NSDictionary *metadata, NSError *error) {
-            if(!error) {
-                ImageViewController *imageVC = [[ImageViewController alloc] initWithImage:image];
-                [weakSelf presentViewController:imageVC animated:NO completion:nil];
-            }
-            else {
-                NSLog(@"An error has occured: %@", error);
-            }
-        } exactSeenImage:YES];
-        
-    } else {
-        if(!self.camera.isRecording) {
+    if(!self.camera.isRecording) {
             self.segmentedControl.hidden = YES;
             self.flashButton.hidden = YES;
             self.switchButton.hidden = YES;
@@ -209,7 +184,7 @@
             NSURL *outputURL = [[[self applicationDocumentsDirectory]
                                  URLByAppendingPathComponent:@"test1"] URLByAppendingPathExtension:@"mov"];
            [self.camera startRecordingWithOutputUrl:outputURL];
-        } else {
+   } else {
             self.segmentedControl.hidden = NO;
             self.flashButton.hidden = NO;
             self.switchButton.hidden = NO;
@@ -221,8 +196,7 @@
               VideoViewController *vc = [[VideoViewController alloc] initWithVideoUrl:outputFileUrl];
               [weakSelf presentViewController:vc animated:NO completion:nil];
            }];
-        }
-    }
+   }
 }
 
 /* other lifecycle methods */

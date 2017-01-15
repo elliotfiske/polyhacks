@@ -42,6 +42,7 @@
 		C9934FC61E2AD85D00948961 /* ViewUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FB71E2AD85D00948961 /* ViewUtils.m */; };
 		C9934FC91E2ADF4800948961 /* ChallengeSubmittedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FC81E2ADF4800948961 /* ChallengeSubmittedViewController.m */; };
 		C9934FCB1E2AEC4900948961 /* send-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C9934FCA1E2AEC4900948961 /* send-icon.png */; };
+		C9934FCE1E2AFB3F00948961 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9934FCD1E2AFB3F00948961 /* CameraViewController.m */; };
 		C9F0B6FE1E2A913E009AB109 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B6FD1E2A913E009AB109 /* main.m */; };
 		C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7001E2A913E009AB109 /* AppDelegate.m */; };
 		C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C9F0B7031E2A913E009AB109 /* ViewController.m */; };
@@ -104,6 +105,8 @@
 		C9934FC71E2ADF4800948961 /* ChallengeSubmittedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChallengeSubmittedViewController.h; sourceTree = "<group>"; };
 		C9934FC81E2ADF4800948961 /* ChallengeSubmittedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChallengeSubmittedViewController.m; sourceTree = "<group>"; };
 		C9934FCA1E2AEC4900948961 /* send-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "send-icon.png"; sourceTree = "<group>"; };
+		C9934FCC1E2AFB3F00948961 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
+		C9934FCD1E2AFB3F00948961 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		C9F0B6F91E2A913E009AB109 /* ecopolyhack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ecopolyhack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9F0B6FD1E2A913E009AB109 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C9F0B6FF1E2A913E009AB109 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -167,6 +170,8 @@
 				C9934FAB1E2AD85D00948961 /* cancel@3x.png */,
 				C9934FAE1E2AD85D00948961 /* ImageViewController.h */,
 				C9934FAF1E2AD85D00948961 /* ImageViewController.m */,
+				C9934FCC1E2AFB3F00948961 /* CameraViewController.h */,
+				C9934FCD1E2AFB3F00948961 /* CameraViewController.m */,
 				C9934FB01E2AD85D00948961 /* UIImage+Crop.h */,
 				C9934FB11E2AD85D00948961 /* UIImage+Crop.m */,
 				C9934FB21E2AD85D00948961 /* UIImage+Resize.h */,
@@ -386,6 +391,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C9934FCE1E2AFB3F00948961 /* CameraViewController.m in Sources */,
 				C9934FC21E2AD85D00948961 /* ImageViewController.m in Sources */,
 				3ED914701E2AAFCA001E722D /* FeedTableViewController.m in Sources */,
 				3ED914731E2AB573001E722D /* ChallengeCellTableViewCell.m in Sources */,
