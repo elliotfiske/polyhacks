@@ -1,4 +1,4 @@
-## TransUnion Hackathon 2016
+## Cal Poly Hackathon 2017
 ### Team Turn Down 4 Watt
 
 * Max Bendick - Developer
