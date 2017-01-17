@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		3E3D15AB1E2AF13600F0D778 /* TabsForDabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */; };
-		3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */; };
 		3E3D15B11E2B0C5A00F0D778 /* NewsFeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */; };
 		3E3D15B31E2B0C7B00F0D778 /* NewsFeed.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */; };
 		3E3D15BB1E2B1A7700F0D778 /* nick_demo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 3E3D15B41E2B1A7700F0D778 /* nick_demo.MOV */; };
@@ -55,8 +54,6 @@
 		26146F2811835309EEB18D90 /* libPods-ecopolyhack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ecopolyhack.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E3D15A91E2AF13600F0D778 /* TabsForDabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TabsForDabs.h; path = ecopolyhack/TabsForDabs.h; sourceTree = "<group>"; };
 		3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TabsForDabs.m; path = ecopolyhack/TabsForDabs.m; sourceTree = "<group>"; };
-		3E3D15AC1E2AFB5B00F0D778 /* CameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CameraViewController.h; sourceTree = "<group>"; };
-		3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CameraViewController.m; sourceTree = "<group>"; };
 		3E3D15AF1E2B0C5A00F0D778 /* NewsFeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsFeedTableViewController.h; sourceTree = "<group>"; };
 		3E3D15B01E2B0C5A00F0D778 /* NewsFeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsFeedTableViewController.m; sourceTree = "<group>"; };
 		3E3D15B21E2B0C7B00F0D778 /* NewsFeed.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = NewsFeed.storyboard; sourceTree = "<group>"; };
@@ -154,8 +151,6 @@
 		C9934FB81E2AD85D00948961 /* Camera */ = {
 			isa = PBXGroup;
 			children = (
-				3E3D15AC1E2AFB5B00F0D778 /* CameraViewController.h */,
-				3E3D15AD1E2AFB5B00F0D778 /* CameraViewController.m */,
 				C9934FA41E2AD85D00948961 /* Messaging-Sent-icon.png */,
 				3E3D15A91E2AF13600F0D778 /* TabsForDabs.h */,
 				3E3D15AA1E2AF13600F0D778 /* TabsForDabs.m */,
@@ -401,7 +396,6 @@
 				C9934FC31E2AD85D00948961 /* UIImage+Crop.m in Sources */,
 				C9934FC41E2AD85D00948961 /* UIImage+Resize.m in Sources */,
 				C9F0B7041E2A913E009AB109 /* ViewController.m in Sources */,
-				3E3D15AE1E2AFB5B00F0D778 /* CameraViewController.m in Sources */,
 				C9F0B7011E2A913E009AB109 /* AppDelegate.m in Sources */,
 				C9F0B6FE1E2A913E009AB109 /* main.m in Sources */,
 				3E3D15B11E2B0C5A00F0D778 /* NewsFeedTableViewController.m in Sources */,

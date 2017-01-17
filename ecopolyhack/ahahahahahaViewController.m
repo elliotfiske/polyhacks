@@ -24,7 +24,13 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)byebye:(id)sender {
-  [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+//  [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+
+  UIStoryboard *storyboard = [UIStoryboard storyboardWithName:@"Challenges" bundle:nil];
+  UIViewController *vc = [storyboard instantiateViewControllerWithIdentifier:@"tabMaster"];
+
+  [vc setModalTransitionStyle:UIModalPresentationPopover];
+  [self presentViewController:vc animated:YES completion:nil];
 }
 
 /*
