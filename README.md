@@ -11,5 +11,12 @@
 ### Demo
 EcoStreak, an iOS app to engage Cal Poly students with being sustainable.
 
-Students are given a daily challenge
-![alt tag](polyhacks/challenges.PNG)
+Students are given a daily challenge to complete
+![alt tag](challenges.PNG)
+![alt tag](challenge_completed.gif)
+
+They can view submissions from peers who have completed the challenge
+![alt tag](news_feed.PNG)
+
+And win prizes based on their "streaks," or consecutive days of completing challenges
+![alt tag](prizes.PNG)
